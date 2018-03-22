@@ -62,6 +62,6 @@ Changing the js/main.js to make views/pizza.html render with a consistent frame-
 	
 	3. The browser is not querying the DOM every time as document.body is out of the for loops in the changePizzaSizes() and updatePositions() functions. 
 
-	4.Moved out the reference out of the loop so that it only need the getAdj.
+	4.Moved out the reference out of the loop so that it only need the get_adj.
 	
 	5. Created an additional for loop to set the element's width in the changePizzaSizes() function.
